@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Bravo 15
+ */
+public class b {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int genapawal;
+        int genapakhir;
+     System.out.print("Masukkan Batas Nilai Awal : ");
+     genapawal = input.nextInt();
+     System.out.print("Masukkan Batas Nilai Akhir : ");
+     genapakhir = input.nextInt();
+        
+        for(int i=1; i<=20;i++)
+            if (i % 2 == 0){
+                System.out.print(i + " ");
+            }
+    }
+    
+}
